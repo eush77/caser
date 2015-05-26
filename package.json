@@ -1,0 +1,41 @@
+{
+  "name": "caser",
+  "version": "0.0.0",
+  "description": "Command-line string casing tool",
+  "author": "Eugene Sharygin <eush77@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "caser": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "homepage": "https://github.com/eush77/caser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eush77/caser"
+  },
+  "bugs": {
+    "url": "https://github.com/eush77/caser/issues"
+  },
+  "keywords": [
+    "string",
+    "case",
+    "cli",
+    "camel-case",
+    "capital-case",
+    "sentence-case",
+    "pascal-case",
+    "constant-case",
+    "snake-case",
+    "dot-case",
+    "slug-case",
+    "space-case",
+    "title-case"
+  ],
+  "dependencies": {
+    "to-case": "^1.0.0"
+  },
+  "devDependencies": {}
+}
