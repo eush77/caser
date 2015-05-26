@@ -35,6 +35,8 @@
     "title-case"
   ],
   "dependencies": {
+    "concat-stream": "^1.4.8",
+    "help-version": "^0.2.0",
     "to-case": "^1.0.0"
   },
   "devDependencies": {}
