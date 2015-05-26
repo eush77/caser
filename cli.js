@@ -39,6 +39,6 @@ var toCaseFunction = function (arg) {
   }
 
   process.stdin.pipe(concat({ encoding: 'string' }, function (input) {
-    console.log(caseFunction(input));
+    process.stdout.write(caseFunction(input));
   }));
 }(process.argv.slice(2)));
