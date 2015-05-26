@@ -1,6 +1,6 @@
 {
   "name": "caser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command-line string casing tool",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
