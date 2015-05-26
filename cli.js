@@ -32,10 +32,14 @@ var toCaseFunction = function (arg) {
 
 
 (function main(argv) {
+  if (argv.length != 1) {
+    return helpVersion.help(1);
+  }
+
   var caseFunction = toCaseFunction(argv[0]);
 
-  if (argv.length != 1 || !caseFunction) {
-    return helpVersion.help(1);
+  if (!caseFunction) {
+    return helpVersion.help(2);
   }
 
   process.stdin.pipe(concat({ encoding: 'string' }, function (input) {
