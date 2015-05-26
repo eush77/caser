@@ -21,7 +21,10 @@
   },
   "keywords": [
     "string",
+    "translation",
+    "convert",
     "case",
+    "conversion",
     "cli",
     "camel-case",
     "capital-case",
